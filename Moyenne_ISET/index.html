@@ -19,7 +19,7 @@
         <label for="">TP math</label><br>
         <input type="number" id="TP_math" placeholder="TP math"><br>
 
-        <input type="number" id="moy_math" readonly><br>
+    
     </div>
 
     <div class="algo">
@@ -31,7 +31,7 @@
         <label for="">TP Programation</label><br>
         <input type="number" id="TP_prog" placeholder="TP Algorithm"><br>
 
-        <input type="number" id="moy_prog" readonly ><br>
+    
     </div>
 
     <div class="archsys">
@@ -48,7 +48,7 @@
         <label for="">TP Systéme logique</label><br>
         <input type="number" id="TP_sys" placeholder="TP Systéme logique"><br>
 
-        <input type="number" id="moy_sys" readonly><br>
+    
     </div>
 
     <div class="web">
@@ -56,11 +56,10 @@
         <input type="number" id="ds4" placeholder="DS"><br>
         <input type="number" id="ex4" placeholder="Examen"><br>
         <input type="number" id="res4" readonly hidden><br>
-
         <label for="">TP Dévelopement Web</label><br>
         <input type="number" id="TP_web" placeholder="TP Web"><br>
 
-        <input type="number" id="moy_web" readonly><br>
+    
     </div>
 
     <div class="lang">
@@ -78,8 +77,7 @@
 
         <label for="">2CN</label><br>
         <input type="number" id="CCN" placeholder="Examen"><br>
-
-        <input type="number" id="moy_lang" readonly ><br><br>
+    
     </div>
 
     <div class="python">
@@ -91,10 +89,26 @@
         <label for="">TP Python</label><br>
         <input type="number" id="TP_py" placeholder="TP Python"><br>
 
+    </div>
+    </div>
+    <div class="res1">
+        <label for="">Moyenne Math</label>
+        <label for="">Moyenne Algorithme</label>
+        <label for="">Moyenne Architechture</label>
+        <label for="">Moyenne Web</label>
+        <label for="">Moyenne Langue</label>
+        <label for="">Moyenne Python</label>
+    </div>
+    <div class="res">
+        <input type="number" id="moy_math" readonly><br>
+        <input type="number" id="moy_prog" readonly ><br>
+        <input type="number" id="moy_sys" readonly><br>
+
+        <input type="number" id="moy_web" readonly><br>
+        <input type="number" id="moy_lang" readonly ><br><br>
         <input type="number" id="moy_py" readonly ><br><br>
     </div>
-    </div>
-    <input type="number" readonly id="tout"><br>  <br>
+    <input type="number" readonly id="tout"><br>
     <button onclick="calculer(),calculer1(),calcule_lang(),calcule_algo(),calcule_sys(),touts()">Moyenne Générale</button><br>
 </body>
 </html>
