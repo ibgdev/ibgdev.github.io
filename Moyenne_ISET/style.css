@@ -1,0 +1,68 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+input[type="number"]{
+    margin-top: 2px;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+#moy_math,#moy_math:focus{
+    outline: none;
+    margin-top: 200px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+#moy_sys,#moy_sys:focus{
+    outline: none;
+    margin-top: 116px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+#moy_prog,#moy_prog:focus{
+    outline: none;
+    margin-top: 200px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+#moy_web,#moy_web:focus{
+    outline: none;
+    margin-top: 200px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+#moy_lang,#moy_lang:focus{
+    outline: none;
+    margin-top: 76px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+#moy_py,#moy_py:focus{
+    outline: none;
+    margin-top: 200px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+#tout{
+    margin-top: 50px;
+    text-align: center;
+    font-size: x-large;
+    width: 80px;
+    background-color: transparent;
+}
+.res{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
