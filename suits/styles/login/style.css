@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8d8d8d;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid #fff;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cord {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.log-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    margin: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+input[type="button"] {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #f0f0f0;
+}
+
+input[type="button"]:hover {
+    background-color: #555;
+    border: 1px solid #f0f0f0;
+}
+
+label {
+    font-size: 1em;
+}
+
+button.back {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #232323;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: auto;
+    font-size: 16px;
+    color: #fff;
+    border: #fff 2px solid;
+}
+button.back:hover {
+    border: #fff 2px solid;
+    background-color: #535353;
+    color:#333;
+}
+
+
+
+button {
+    margin-top: 5px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333;
+    font-size: 15px;
+    color: #fff;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a {
+    color: #f0f0f0;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .log-in {
+        width: 80%;
+        margin: 20px;
+    }
+
+    img {
+        width: 80%;
+        margin: 20px;
+    }
+}
+

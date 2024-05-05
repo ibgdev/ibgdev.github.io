@@ -1,0 +1,69 @@
+footer {
+    background-color: #232323;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info, .social-media, .newsletter {
+    flex: 1;
+    margin-right: 20px;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ddd;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#fb:hover{
+    color: rgb(37, 37, 243);
+}
+#tw:hover{
+    color: rgb(140, 212, 236);
+}
+#ig:hover{
+    color: palevioletred;
+}
