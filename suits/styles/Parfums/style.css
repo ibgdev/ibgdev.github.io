@@ -147,6 +147,7 @@ nav ul li a:hover {
 .produit img {
     width: 50%;
     height: auto;
+    min-width: 40%;
     min-height: 220px;
 }
 
