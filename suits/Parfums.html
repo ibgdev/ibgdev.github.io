@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+  <title>Parfums</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="JC Routier" />
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
+
+
+  <link rel="stylesheet" type="text/css" href="styles/Parfums/style.css" />
+  <link rel="stylesheet" href="styles/footstyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
+
+  <script src="data/catalog2.js"></script>
+
+  <script src="styles/Parfums/script.js"></script>
+
+</head>
+
+<body>
+
+  <nav>
+    <span><a href="index.html">SUITS</a></span>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="general.html">Shop <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" fill="none" viewBox="0 0 10 7"
+            class="css-h1szwg" style="transform: rotate(0deg);">
+            <path stroke="currentColor" stroke-width="2" d="m1 1 4 4 4-4"></path>
+          </svg></a>
+        <div class="dropdown-content">
+          <a href="general.html">General</a>
+          <a href="Suits.html">Suits</a>
+          <a href="Parfums.html">Parfums</a>
+        </div>
+      </li>
+      <li><a href="index.html#about-us">About</a></li>
+      <li><a href="index.html#cont">Contact</a></li>
+    </ul>
+    <div class="Login">
+      <label><a href="login.html">Login</a></label>
+    </div>
+
+  </nav>
+  <div class="container">
+
+
+
+    <div id="boutique"></div>
+
+    <div id="panier">
+      <input id="filter" placeholder="rechercher des produits..." onkeyup="filtre()"></input>
+      <div id="total">Total du panier&#xA0;: <span id="montant">0</span></div>
+      <div class="achats"></div>
+    </div>
+  </div>
+  <footer id="cont">
+    <div class="footer-content">
+        <div class="info">
+            <h3>Contact Us</h3>
+            <p>Email: info@suits.com</p>
+            <p>Phone: +216 73 730 546</p>
+            <p>Address: 123 SUITS St, 14 Janvier 2011, Sousse</p>
+        </div>
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#" id="fb">Facebook</a></li>
+                <li><a href="#" id="tw">Twitter</a></li>
+                <li><a href="#" id="ig">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form action="#">
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2024 SUITS. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+
+</html>
