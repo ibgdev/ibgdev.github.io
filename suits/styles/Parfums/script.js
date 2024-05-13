@@ -78,7 +78,7 @@ var handleCommanderClick = function (index) {
   var input = document.getElementById(index + "-" + inputIdKey);
   var quantity = parseInt(input.value);
 
-  if (quantity > 0) {
+  if (quantity > 0 && quantity <= 9) {
       var product;
       var existingItem = document.querySelector(`.achat[data-index="${index}"]`);
 
